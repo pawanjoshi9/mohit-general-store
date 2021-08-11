@@ -1,0 +1,41 @@
+.strong-font{
+   
+    background-color: black;
+    opacity: .6;
+    border-radius: 15px;
+}
+.strong-font-h{
+    font-size: 30px;
+    color: white;
+}
+.strong-font-p{
+    font-size: 25px;
+    color: white;
+    opacity: 1.5;
+}
+
+.img-width{
+    height: 25rem;
+    
+}
+.marg-crousel{
+    border: 2px solid gray;
+}
+.mywidth img{
+    width: 100%;
+    height: 210px;
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 480px){
+ .mywidth img{
+    width: 325px;
+    height: 180px;
+ }
+ .my-crousel{
+    width: 100%;
+    height: 404px;
+ }
+} 
